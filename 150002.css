@@ -1,0 +1,102 @@
+* {margin: 0 auto;}
+
+body {background-image: url("img/bg1.jpg"); }
+
+.main {
+
+    background-repeat: repeat;
+    width: 1200px; position: relative; height: 600px;
+
+}
+
+.head {
+    width: 1000px; height: 310px; display: block;
+    background-image: url("img/header.png");
+    background-repeat: no-repeat; z-index: 10;
+    position: absolute; top: 0; left: 100px;
+}
+
+.menu {
+    width: 1000px; height: 90px;
+    top: 260px; left: 25px;
+    position: relative; z-index: 1;
+}
+
+.menu ul {margin: 0; padding: 0;}
+
+.menu ul li {
+    list-style: none; display: block; float: left;
+    overflow: hidden; position: relative;
+    z-index: 0;
+}
+
+.menu ul li:hover {top: 10px;}
+
+.cont {
+    margin: 10px 25px 5px 25px;
+    position: relative;
+    top: 255px;
+}
+
+.cont p {
+    font: 12px Tahoma; text-align: justify; text-indent: 2em; text-align-last: end;
+    color: #533207;
+}
+
+.cont h1, .cont h2 {
+    font: bold Vendana; text-align: center; color: #482708;
+}
+
+.cont h1 {
+    font-size: 30px;
+    padding: 5px 25px 10px 25px;
+}
+
+.cont h2 {
+    font-size: 25px;
+}
+
+.left {
+    width: 276px; float: left;
+    margin: 0; padding: 10px 5px 15px 19px;
+}
+
+.left p {
+
+}
+
+.lf-block {
+    width: 276px;
+}
+
+.lf-block-top {
+    width: 276px; height: 64px;
+    background-image: url("img/lb_top.png");
+    background-repeat: no-repeat;
+}
+
+.lf-block-mid {
+    width: 276px; min-height: 125px;
+    background-image: url("img/lb_mid.png");
+    background-repeat: repeat-y;
+}
+
+.lf-block-mid p {
+    font: 12px Vendana; text-align: justify; text-indent: 2em; text-align-last: end;
+    color: #533207; padding-left: 25px; padding-right: 25px;
+}
+.lf-block-bot {
+    width: 276px; height: 64px;
+    background-image: url("img/lb_bot.png");
+    background-repeat: no-repeat;
+}
+
+.right-block {
+    min-height: 299px;
+    margin-left: 299px; padding: 10px 20px 15px 5px;
+}
+
+.right-block p {
+    font: 14px Vendana; text-align: justify; text-indent: 2em; text-align-last: end;
+    color: #533207;
+}
