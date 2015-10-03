@@ -39,7 +39,7 @@ body {background-image: url("img/bg1.jpg"); }
 }
 
 .cont p {
-    font: 12px Tahoma; text-align: justify; text-indent: 2em; text-align-last: end;
+    font: 16px Tahoma; text-align: justify; text-indent: 2em; text-align-last: end;
     color: #533207;
 }
 
@@ -61,10 +61,6 @@ body {background-image: url("img/bg1.jpg"); }
     margin: 0; padding: 10px 5px 15px 19px;
 }
 
-.left p {
-
-}
-
 .lf-block {
     width: 276px;
 }
@@ -75,6 +71,11 @@ body {background-image: url("img/bg1.jpg"); }
     background-repeat: no-repeat;
 }
 
+.lf-block-top h3 {
+    font: bold Vendana; text-align: center; color: #482708;
+    font-size: 22px; padding-top: 25px;
+}
+
 .lf-block-mid {
     width: 276px; min-height: 125px;
     background-image: url("img/lb_mid.png");
@@ -83,7 +84,7 @@ body {background-image: url("img/bg1.jpg"); }
 
 .lf-block-mid p {
     font: 12px Vendana; text-align: justify; text-indent: 2em; text-align-last: end;
-    color: #533207; padding-left: 25px; padding-right: 25px;
+    color: #533207; padding: 10px 25px;
 }
 .lf-block-bot {
     width: 276px; height: 64px;
@@ -97,6 +98,6 @@ body {background-image: url("img/bg1.jpg"); }
 }
 
 .right-block p {
-    font: 14px Vendana; text-align: justify; text-indent: 2em; text-align-last: end;
+    font: 16px Vendana; text-align: justify; text-indent: 2em; text-align-last: end;
     color: #533207;
 }
